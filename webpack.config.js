@@ -10,10 +10,14 @@ module.exports = {
         exclude: '/node_modules',
         loader: 'babel'
       },
-        { test: /\.scss/,
-          exclude: '/node_modules',
-          loader: 'style!css!sass'
-        }
+      { test: /\.scss/,
+        exclude: '/node_modules',
+        loader: 'style!css!sass'
+      },
+      { test: /\.json/,
+        exclude: '/node_modules',
+        loader: 'json'
+      }
     ]
   }
 
