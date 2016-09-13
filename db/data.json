@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cool Change",
+    "description": "The best hangover drink in the world. Available in most dairies",
+    "price": 3.5,
+    "qty": 50
+  },
+  {
+    "name": "ThermoBlast",
+    "description": "Healthy drink with kale spinach and seeds and stuff",
+    "price": 6.5,
+    "qty": 2
+  },
+  {
+    "name": "Wai Maori",
+    "description": "Water from the heavens",
+    "price": 1000000000,
+    "qty": 1
+  }
+]
