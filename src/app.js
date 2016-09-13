@@ -1,19 +1,10 @@
-// Code goes here
+// babel-loader || using ES6 ** \\
+import './main.scss';
 
-(function() {
-  var app = angular.module('gemStore', ['store-directives'])
+const arr = [1, 2, 3, 4]
 
-  app.controller('StoreController', [ '$http', function('$http') {
-    var store = this
+const newArr = arr.reduce((a, b) => {
+  return a + b
+})
 
-    store.cats = [ ]
-
-    $http.get('http://meow-rena.herokuapp.com/v1/cats')
-      .success(data => {
-        store.cats = data
-      })
-
-  }]);
-
-
-})();
+console.log("Hello Angular Webpack! " + newArr)
