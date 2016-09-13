@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/rena-deane/angular-webpack/issues"
   },
-  "homepage": "https://github.com/rena-deane/angular-webpack#readme"
+  "homepage": "https://github.com/rena-deane/angular-webpack#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.5"
+  }
 }
