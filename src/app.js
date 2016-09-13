@@ -1,17 +1,17 @@
-// Code goes here
 import './main.scss'
 import data from '../db/data.json'
 
 (function() {
 
-  angular.module('appStore', [])
-  const arr = [1, 2, 3, 4]
+  const app = angular.module('appStore', [])
 
-  const newArr = arr.reduce((a, b) => {
-    return a + b
+  app.controller('StoreController', function() {
+    this.products = data
   })
 
-  // test
-  console.log("Hello Angular Webpack!")
+  // add functions and controllers
+
+
+  console.log("Hello Angular Webpack! Testing Testing!")
 
 })()

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html ng-app='appStore'>
+
 <head>
   <title>Angular ToDo</title>
   <!-- meta data -->
@@ -10,8 +11,13 @@
   <!-- angular script -->
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
 </head>
-<body>
+
+<body ng-controller="StoreController as store">
+
   <h1>Angular with Webpack</h1>
   <script src='/bundle.js'></script>
+
+  <!-- access the store data by using directives -->
+
 </body>
 </html>
