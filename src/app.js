@@ -1,10 +1,17 @@
-// babel-loader || using ES6 ** \\
-import './main.scss';
+// Code goes here
+import './main.scss'
+import data from '../db/data.json'
 
-const arr = [1, 2, 3, 4]
+(function() {
 
-const newArr = arr.reduce((a, b) => {
-  return a + b
-})
+  angular.module('appStore', [])
+  const arr = [1, 2, 3, 4]
 
-console.log("Hello Angular Webpack! " + newArr)
+  const newArr = arr.reduce((a, b) => {
+    return a + b
+  })
+
+  // test
+  console.log("Hello Angular Webpack!")
+
+})()
