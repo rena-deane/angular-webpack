@@ -3,7 +3,7 @@ const webpack = require('webpack')
 
 module.exports = {
   entry: [
-    '../app.js' // Your appʼs entry point
+    '/app.js' // Your appʼs entry point
   ],
   output: {
     path: path.join(__dirname, '../public'),
@@ -19,16 +19,11 @@ module.exports = {
         test: /\.js$/,
         loaders: ['babel'],
         include: __dirname
-      },
-      {
-        test: /\.scss$/,
-        loaders: ['style', 'css', 'sass']
-      },
-      {
-        test: /\.css$/,
-        loader: 'style-loader!css-loader'
       }
     ]
+  },
+    sassLoader: {
+    includePaths: [path.resolve(__dirname, "./scss")]
   },
   devServer: {
     contentBase: '../public'
