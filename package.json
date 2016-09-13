@@ -1,0 +1,23 @@
+{
+  "name": "generate-angular-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rena-deane/angular-webpack.git"
+  },
+  "keywords": [
+    "angular",
+    "webpack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rena-deane/angular-webpack/issues"
+  },
+  "homepage": "https://github.com/rena-deane/angular-webpack#readme"
+}
