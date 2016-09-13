@@ -8,9 +8,6 @@ NOTE: I don't speak Hebrew but if want to get a basic undestanding of Webpack I 
 
 Is this your first time using AngularJS?  I recommend [Shaping Up With Angular](https://www.codeschool.com/courses/shaping-up-with-angular-js) by [Code School](https://codeschool.com/).
 
-<strong>YOU'RE READY TO GO</strong>
-
-
 ## Run the App
 
 Requires node.  Once you have cloned the project, install the dependencies:
@@ -27,4 +24,4 @@ npm run dev
 This script runs the `webpack-dev-server` on `localhost:8080`
 
 
-
+<strong>YOU'RE READY TO GO</strong>
