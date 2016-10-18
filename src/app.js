@@ -11,7 +11,6 @@ import data from '../db/data.json'
 
   // add functions and controllers
 
-
   console.log("Hello Angular Webpack! Testing Testing!")
 
 })()
